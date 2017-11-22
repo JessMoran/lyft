@@ -1,13 +1,7 @@
-body{
+body{ /* se da margin y padding 0 a
+       body para que abarque toda la pág */
   margin: 0;
   padding: 0;
-}
-
-div >img{
-  height: 43px;
-  float: left;
-  width: 68px;
-  margin: 0 0 0 92px;
 }
 
 a{
@@ -27,14 +21,13 @@ footer{
   text-align: center;
 }
 
-
 footer >span{
   color: #fff;
   font-family: 'Montserrat', sans-serif;
   text-align: center;
 }
 
-#first-section {
+#first-section { /* formato al fondo tomado de una imagen */
   background-image: url("../assets/images/hero.gif");
   background-repeat: no-repeat;
   background-size: cover;
@@ -45,15 +38,24 @@ footer >span{
   padding: 45px 0 0 0;
 }
 
-#second-section{
-  background: #312145;
-  display: inline-block;
-  height: 565px;
-  padding: 1px;
-  width: 100%;
+#logo{ /* se le da tamaño y posicion usando float y margin*/
+  height: 43px;
+  float: left;
+  width: 68px;
+  margin: 0 0 0 92px;
 }
 
-#white-box{
+
+#log-in-button{ /* dirige a la pág para logear con formato*/
+  border: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 5px;
+  padding: 8px 15px;
+}
+
+#white-box{ /* se le da tamaño y color a la seccion incluida en
+            "first-section" */
   background: #fff;
   color: #5d2a98;
   height:420px;
@@ -64,7 +66,8 @@ footer >span{
   text-align: center;
 }
 
-#info{
+#info{ /* en este div se le da formato y posicionamiento
+        en base al background */
   display: block;
   font-size: 30px;
   font-family: 'Montserrat', sans-serif;
@@ -74,7 +77,8 @@ footer >span{
   width: 400px;
 }
 
-#info >h2{
+#info >h2{ /* se agrgo este margen para que tuviera
+            el formato requerido */
   margin: 0;
 }
 
@@ -82,14 +86,6 @@ footer >span{
   font-size: 15px;
   font-weight: 400;
   margin: 0;
-}
-
-#log-in-button{
-  border: #fff;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 5px;
-  padding: 8px 15px;
 }
 
 #phone{
@@ -126,7 +122,15 @@ footer >span{
   color: #ff00bb;
 }
 
-#info-container{
+#second-section{ /* se da fondo degradante y formato*/
+  background: linear-gradient(#76278F, #2B1E66);
+  height: 565px;
+  padding: 1px;
+  width: 100%;
+}
+
+#info-container{ /* formato a la informacion dentro de esta seccion
+                 con un float left para dar espacio a la imagen*/
   color: #fff;
   float: left;
   font-family: 'Montserrat', sans-serif;
@@ -138,27 +142,19 @@ footer >span{
   margin: 0;
 }
 
-#second-section >img{
+#second-section >img{ /*se incluye un float right para colocarlo
+                      en esa posición*/
   float: right;
   height: 550px;
   width: 530px;
   margin: 6px 140px 0 0;
 }
 
-#third-section,#fourth-section,#fifth-section{
+#third-section,#fourth-section,#fifth-section{ /* se da el mismo formato a esta tres secciones*/
   color:#000;
   font-family: 'Montserrat', sans-serif;
   height: 560px;
   margin: 0px;
-  text-align: center;
-}
-
-#sixth-section{
-  background: #343247;
-  color: #fff;
-  font-family: 'Montserrat', sans-serif;
-  font-size: 200;
-  height: 300px;
   text-align: center;
 }
 
@@ -174,7 +170,16 @@ footer >span{
   text-decoration: underline;
 }
 
-.right-button {
+#sixth-section{ /* se le da estilo a esta seccion */
+  background: #343247;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200;
+  height: 300px;
+  text-align: center;
+}
+
+.right-button { /* estilo a los botones superiores derecho */
   float: right;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400px;
@@ -203,7 +208,7 @@ footer >span{
   margin: 0;
 }
 
-.container-1{
+.container-1{ /* se da float-left y right a los container, al texto y posicion */
   float: left;
   margin: 180px 0 0 60px;
   text-align: left;
@@ -230,14 +235,14 @@ footer >span{
   margin: 0;
 }
 
-.tittles-2{
+.tittles-2{ /* se usa el mismo formato para todos los titulos*/
   font-size: 25px;
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin: 0;
 }
 
-.video{
+.video{ /* se da posicion usando float */
   float:right;
   height: 550px;
   margin: 0px;
@@ -251,7 +256,7 @@ footer >span{
   width: 930px;
 }
 
-.lines{
+.lines{ /* se da el mismo formato a todas las columnas*/
   display: inline-block;
   text-align: center;
   width: 200px;
@@ -279,11 +284,11 @@ footer >span{
 }
 
 .images{
-  width: 150px;
   margin: 20px 0 0 0;
+  width: 150px;
 }
 
-.icons{
+.icons{ /* se da posicionamiento color y el circulo que contiene a los iconos*/
   display: inline-block;
   border: #fff;
   border-width: 2px;
@@ -298,6 +303,6 @@ footer >span{
   width: 40px;
 }
 
-.fa{
+.fa{ /* se posiciona los iconos*/
   margin: 8px;
 }
