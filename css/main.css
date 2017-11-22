@@ -21,6 +21,19 @@ a:hover{
   color: #ff00bb;
 }
 
+footer{
+  background: #343247;
+  height: 200px;
+  text-align: center;
+}
+
+
+footer >span{
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
 #first-section {
   background-image: url("../assets/images/hero.gif");
   background-repeat: no-repeat;
@@ -135,7 +148,17 @@ a:hover{
 #third-section,#fourth-section,#fifth-section{
   color:#000;
   font-family: 'Montserrat', sans-serif;
-  height: 565px;
+  height: 560px;
+  margin: 0px;
+  text-align: center;
+}
+
+#sixth-section{
+  background: #343247;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 200;
+  height: 300px;
   text-align: center;
 }
 
@@ -181,15 +204,19 @@ a:hover{
 }
 
 .container-1{
-  text-align: left;
-  margin: 180px 0 0 60px;
   float: left;
+  margin: 180px 0 0 60px;
+  text-align: left;
 }
 
 .container-2{
   float: right;
-  text-align: left;
   margin: 180px 70px 0 0;
+  text-align: left;
+}
+
+.container-1 >p, .container-2 >p{
+  width: 350px;
 }
 
 .learn-more{
@@ -208,4 +235,69 @@ a:hover{
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   margin: 0;
+}
+
+.video{
+  float:right;
+  height: 550px;
+  margin: 0px;
+  width: 930px;
+}
+
+.video-2{
+  float: left;
+  height: 550px;
+  margin: 0px;
+  width: 930px;
+}
+
+.lines{
+  display: inline-block;
+  text-align: center;
+  width: 200px;
+  margin: 0 0 0 0;
+}
+
+.lines >h4{
+  font-size: 20px;
+  margin: 57px 0;
+  text-align: left;
+}
+
+.extra >a{
+  color:#fff;
+  font-size: 15px;
+  font-weight: 200px;
+  display: block;
+  margin: 27px 0 0 0;
+  text-align: left;
+}
+
+.extra >a:hover{
+  color:#ff00bb;
+  text-decoration: underline;
+}
+
+.images{
+  width: 150px;
+  margin: 20px 0 0 0;
+}
+
+.icons{
+  display: inline-block;
+  border: #fff;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 50%;
+  color: #fff;
+  cursor: pointer;
+  font-size: 25px;
+  text-align: center;
+  margin: 25px;
+  height: 40px;
+  width: 40px;
+}
+
+.fa{
+  margin: 8px;
 }
